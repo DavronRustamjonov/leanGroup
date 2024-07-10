@@ -8,6 +8,7 @@
   box-shadow: 0px 4px 32px 0px rgba(0, 16, 61, 0.16);
 }
 .navbar__container {
+
   max-width: 1140px;
   margin: 0 auto;
   padding: 20px;
@@ -15,18 +16,16 @@
   justify-content: space-between;
   height: 64px;
   align-items: center;
+
 }
 
 .navbar__logo {
   width: 122px;
   height: 55px;
 }
-.navbar__burger{
-  display: none;
-}
 .nav-burger{
-  width: 80px;
-  height: 60px;
+width: 40px;
+height: 30px;
 }
 
 .navbar__list {
@@ -78,13 +77,15 @@
 
 
 
+@media(max-width:12000px){
 
+  .navbar__burger{
+    display: none;
+  }
+}
 @media(max-width:1200px){
   .container{
       width: 1100px;
-  }
-  .navbar__burger{
-    display: none;
   }
 
 }

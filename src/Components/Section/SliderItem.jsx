@@ -1,13 +1,18 @@
 import React from "react";
-import "./Section.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import "./Section.css"; 
+import Slider_pic1 from '/slider-pic1.svg';
+import Slider_pic2 from '/slider-pic2.svg';
+import Slider_pic3 from '/slider-pic3.svg';
+import Slider_pic4 from '/slider-pic4.svg';
+import Slider_pic5 from '/slider-pic5.svg';
 
 function SliderItem() {
   var settings = {
     dots: true,
+    arrows: true, 
     infinite: false,
     speed: 500,
     slidesToShow: 4,
@@ -24,48 +29,49 @@ function SliderItem() {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 720,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 2.3,
           slidesToScroll: 2,
           initialSlide: 2
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 520,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.7,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 420,
+        settings: {
+          slidesToShow: 1.2,
           slidesToScroll: 1
         }
       }
+      
     ]
   };
+
   return (
-    <div className="slider-container">
-      <Slider {...settings}>
+    <div className="slider-container container">
+      <h2 className="slider__title">Качество продукции подтверждают <span className="slider__span">сертификаты</span></h2>
+      <Slider {...settings} >
         <div>
-          <h3>1</h3>
+          <img  src={Slider_pic1} alt="Certificate 1" />
         </div>
         <div>
-          <h3>2</h3>
+          <img  src={Slider_pic2} alt="Certificate 2" />
         </div>
         <div>
-          <h3>3</h3>
+          <img  src={Slider_pic3} alt="Certificate 3" />
         </div>
         <div>
-          <h3>4</h3>
+          <img  src={Slider_pic4} alt="Certificate 4" />
         </div>
         <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
-        </div>
-        <div>
-          <h3>7</h3>
-        </div>
-        <div>
-          <h3>8</h3>
+          <img  src={Slider_pic5} alt="Certificate 5" />
         </div>
       </Slider>
     </div>

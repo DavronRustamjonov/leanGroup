@@ -1,79 +1,52 @@
 
-.hero__container{
-  padding-top: 100px;
-  align-items: center;
-  position: relative;
-  margin-top: 100px;
+.title-span{
+  color: rgba(239, 124, 0, 1);
 }
 .hero__title{
-
-  width: 394px;
-  height: 128px;
-  font-family: "Public Sans" , sans-serif;
-  font-size: 56px;
-  font-weight: 100;
-  line-height: 64px;
-  letter-spacing: -1px;
-  color: #2D314D;
-  transform: scale(0.8);
+  font-family: Montserrat , sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  margin: 20px auto;
+}
+.hero__content{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 .hero__list{
-  padding-left: 90px;
-  padding-top: 80px;
+  list-style: none;
+
+}
+.hero__frist-text{
+  margin: 20px auto;
+   
+  font-family: Montserrat , sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(44, 45, 46, 1);
+}
+.hero__next-text{
+
+  font-family: Montserrat , sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(44, 45, 46, 1);
 }
 .hero__text{
-  width: 447px;
-  height: 84px;
-  color: #9597A5;
-  font-family: "PublicSans" , sans-serif;
-  font-size: 18px;
-  line-height: 28px;
-  letter-spacing: -0.28125px;
-  transform: scale(0.8);
-  
-}.hero__btn {
-  width: 163px;
-  height: 44px;
-  background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
-  border: none;
-  border-radius: 20px;
-  font-family: "Public Sans", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 28px;
+  font-family: Montserrat , sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
   text-align: center;
-  color: #ffffff;
-  transform: scale(0.8);
-  margin-left: 25px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-  cursor: pointer; 
+  color: rgba(44, 45, 46, 1);
 }
-
-.hero__btn:hover {
-  transform: scale(0.85); 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  background-color: #1f98db; 
-}
-
-
-
-.hero__img{
-  position: absolute;
-  z-index: 1;
-  transform: scale(0.8);
-  top:-70px;
-  right: -43.705px;
-  
-
-}
-.hero__bg{
-  position: absolute;
-  transform: scale(0.8);
-  top:-80px;
-  z-index: 0;
-  right: -60px;
-}
-
 
 
 
@@ -105,7 +78,16 @@
 .container{
     width: 900px;
 }
-
+.hero__content{
+display: block;
+text-align: center;
+}
+.hero-pic{
+  width: 100%;
+}
+.hero__list{
+  width: 100%;
+}
 
 
 }
