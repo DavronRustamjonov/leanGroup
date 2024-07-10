@@ -4,6 +4,7 @@ import Vk from "/vk.svg";
 import Fb from "/fb.svg";
 import Linkedin from "/linkedin.svg";
 
+import NextButton from "../nextButton/nextButton";
 import { Carousel } from 'antd';
 const contentStyle = {
   height: '160px',
@@ -26,7 +27,8 @@ const Header=()=>{
         <li className="header__item"><p className="header__lead">LEANGROUP - тубы и этикетки</p></li>
         <li  className="header__item"><h2 className="header__title">Ламинатные тубы</h2></li>
         <li className="header__item"><p className="header__text">Используются для производства зубных паст. Широко применяются в сегменте косметики, пищевой индустрии, парафармацевтике, бытовой химии и DIY (Do-it-Yourself).</p></li>
-        <li className="header__item"><button className="header__btn">Каталог</button></li>
+        <li className="header__item">
+<NextButton name={'Каталог'} /></li>
        </ul>
 <ul className="header__list">
 

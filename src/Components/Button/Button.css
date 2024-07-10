@@ -19,3 +19,16 @@
     color: rgba(255, 255, 255, 1);
     background: rgba(239, 124, 0, 1);
 }
+
+
+@media(max-width:520px){
+    .container{
+        width: 400px;
+    }
+    .button__props{
+        margin: 10px 0px;
+    }
+    
+    
+    
+    }
