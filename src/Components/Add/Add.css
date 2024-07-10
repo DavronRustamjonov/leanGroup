@@ -6,6 +6,9 @@
      height: 65vh;
      width: 100%;
      display: flex;
+     box-shadow: 0px 4px 32px 0px rgba(0, 16, 61, 0.16);
+     align-items: center;
+
 }
 .add__span{
   color:   rgba(239, 124, 0, 1);
@@ -28,6 +31,46 @@
     width: 366px;
     height: 40px;
 }
+.add__list{
+    list-style: none;
+}
+.add__item{
+    display: flex;
+    width: auto;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: auto;
+}
+.add__input{
+    margin-top: 20px;
+    width: auto;
+    height: 40px;
+    padding: 10px 12px 10px 12px;
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid rgba(0, 16, 61, 0.12);
+    background: rgba(255, 255, 255, 1);
+    
+}
+.add-pic{
+    height: 40px;
+    margin-top: 20px;
+}
+.add__btn{
+    margin-top:10px ;
+}
+.text__area {
+    width: 100%;
+    padding: 10px; 
+    font-size: 16px;
+    margin: 10px auto;
+    border: 1px solid rgba(0, 16, 61, 0.12);
+    border-radius: 4px;
+    resize: vertical; 
+}
+
 
 
 
@@ -87,13 +130,29 @@
   .container{
       width: 500px;
   }
-  
+  .add__item{
+    width: auto;
+  }
+  .add__next-list{
+    display: none;
+  }
   
   
   }
   @media(max-width:520px){
   .container{
       width: 400px;
+      
+  }
+  .add__item{
+    width: 100%;
+  }
+  .add__input{
+    width: 100%;
+  }
+  .add__container{
+    text-align: center;
+    margin: 0 auto;
   }
   
   
