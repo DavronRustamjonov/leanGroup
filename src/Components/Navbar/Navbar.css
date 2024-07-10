@@ -12,7 +12,7 @@
   margin: 0 auto;
   padding: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   height: 64px;
   align-items: center;
 }
@@ -21,12 +21,19 @@
   width: 122px;
   height: 55px;
 }
+.navbar__burger{
+  display: none;
+}
+.nav-burger{
+  width: 80px;
+  height: 60px;
+}
 
 .navbar__list {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  gap: 20px;
+  gap: 10px;
 }
 
 .navbar__link {
@@ -63,4 +70,96 @@
 .navbar__frist-btn,
 .navbar__next-btn :hover{
   color: rgba(239, 124, 0, 1);
+}
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
+  .container{
+      width: 1100px;
+  }
+  .navbar__burger{
+    display: none;
+  }
+
+}
+@media(max-width:1120px){
+.container{
+    width: 1000px;
+}
+
+}
+@media(max-width:1020px){
+.container{
+    width: 900px;
+}
+
+.navbar__list{
+  display: none;
+  }
+.navbar__burger{
+  display: block;
+}
+
+
+
+}
+@media(max-width:920px){
+.container{
+    width: 800px;
+}
+
+}
+@media(max-width:820px){
+.container{
+    width: 700px;
+}
+
+
+
+
+}
+@media(max-width:720px){
+.container{
+    width: 600px;
+}
+
+
+
+}
+
+@media(max-width:620px){
+.container{
+    width: 500px;
+}
+
+
+
+
+
+}
+@media(max-width:520px){
+.container{
+    width: 400px;
+}
+
+
+}
+@media(max-width:420px){
+.container{
+    width: 300px;
+}
+
+
+
+
+}
+
+@media(max-width:320px){
+
 }

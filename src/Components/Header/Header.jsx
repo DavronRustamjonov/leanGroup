@@ -15,10 +15,10 @@ const Header=()=>{
        </ul>
 <ul className="header__list">
 
-  <li className="header__item"><a href="#"><img src={Vk} alt="vk link" /></a></li>
-  <li className="header__item"><a href="#"><img src={Fb} alt="fb link" /></a></li>
+  <li className="header__item"><a href="#"><img src={Vk} alt="vk link"/></a></li><br/>
+  <li className="header__item"><a href="#"><img src={Fb} alt="fb link"/></a></li><br/>
   <li className="header__item"><a href="#"><img src={Linkedin} alt="linkedin link"/></a></li>
-  
+
 </ul>
       </div>
       </div>

@@ -7,6 +7,8 @@
   background-position: center;
   margin-top: 64px;
 }
+
+
 .header__container{
   width: 100%;
   display: flex;
@@ -14,9 +16,13 @@
   align-items: center;
   height: 100vh;
 }
+
+
 .header__list{
   list-style: none;
 }
+
+
 .header__lead{
   font-family: Montserrat , sans-serif;
   font-size: 13px;
@@ -25,6 +31,8 @@
   text-align: left;
   color: rgba(44, 45, 46, 1);
 }
+
+
 .header__title{
   font-family: Montserrat , sans-serif;
   font-size: 32px;
@@ -32,7 +40,10 @@
   line-height: 40px;
   text-align: left;
   color: rgba(44, 45, 46, 1);
+  margin: 10px auto;
 }
+
+
 .header__text{
   font-family: Montserrat , sans-serif;
   font-size: 15px;
@@ -40,11 +51,31 @@
   line-height: 20px;
   text-align: left;
   color: rgba(44, 45, 46, 1);
-  width: 582px;
+  width: 532px;
   height: 69px;
+  margin: 20px auto;
 }
 
 
+.header__btn{
+  width: Hug (102px)px;
+  height: Hug (40px)px;
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+  border-radius: 4px;
+  background: rgba(239, 124, 0, 1);
+  border: none;
+  font-family: Montserrat , sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.header__btn:hover{
+    
+  box-shadow: 0px 4px 32px 0px rgba(239, 124, 0, 1);
+}
 
 
 
@@ -125,7 +156,10 @@
 .container{
     width: 500px;
 }
+.header__text{
+  width: auto;
 
+}
 
 
 
@@ -141,6 +175,10 @@
 .container{
     width: 300px;
 }
+.header__btn{
+  margin-top: 20px;
+}
+
 
 
 

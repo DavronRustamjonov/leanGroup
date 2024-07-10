@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Navbar.css"
 import Logo_1 from "../../assets/nav-logo.svg"
+import Burger from "/burger.png";
 import { Dropdown, Space } from 'antd';
 const Navbar = () => {
   const items = [
@@ -135,6 +136,7 @@ const Navbar = () => {
           <span className='navbar__frist-btn' active>RU</span><span>| </span><span className='navbar__next-btn'>EN</span></button>
          </li>
         </ul>
+        <ul className=' navbar__list navbar__burger'><img className='nav-burger' src={Burger} alt="burger" /></ul>
        
       </div>
     </div>
