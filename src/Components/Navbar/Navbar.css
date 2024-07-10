@@ -7,7 +7,6 @@
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 4px 32px 0px rgba(0, 16, 61, 0.16);
 }
-
 .navbar__container {
   max-width: 1140px;
   margin: 0 auto;
@@ -36,33 +35,32 @@
   font-weight: 500;
   line-height: 24px;
   text-align: left;
-  color: rgba(44, 45, 46, 1);
   transition: all 0.3s ease-in;
   text-decoration: none;
   position: relative;
 }
+.navbar__link:hover{
 
-.navbar__link::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0%;
-  height: 1px;
-  background-color: rgba(44, 45, 46, 1);
+  color:rgba(239, 124, 0, 1);
+}
+.navbar__link {
+  color: rgba(44, 45, 46, 1);
   transition: all 0.3s ease-in;
 }
-
-.navbar__link:hover::before {
-  width: 100%;
+.navbar__btn{
+    background-color: transparent;
+    border: none;
 }
-.navbar__btn,
+.navbar__frist-btn,
 .navbar__next-btn {
-  background-color: transparent;
   border: none;
-  cursor: pointer;
-  outline: none;
+  background-color: transparent;
   font-size: 16px;
   margin-right: 10px;
   padding: 5px 10px;
+}
+
+.navbar__frist-btn,
+.navbar__next-btn :hover{
+  color: rgba(239, 124, 0, 1);
 }

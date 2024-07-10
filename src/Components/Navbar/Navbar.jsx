@@ -50,7 +50,7 @@ const Navbar = () => {
             <a className='navbar__link' href="#">Продукция</a>
             </Space>
           </a>
-        </Dropdown></li>
+        </Dropdown></li><hr/>
           <li className='navbar__item'>
           <Dropdown
           menu={{
@@ -63,7 +63,7 @@ const Navbar = () => {
             </Space>
           </a>
         </Dropdown>
-            </li>
+            </li><hr/>
           <li className='navbar__item'>
           <Dropdown
           menu={{
@@ -77,7 +77,7 @@ const Navbar = () => {
           </a>
         </Dropdown>
 
-           </li>
+           </li><hr/>
           <li className='navbar__item'>
           <Dropdown
           menu={{
@@ -89,7 +89,7 @@ const Navbar = () => {
             <a className='navbar__link' href="#">О нас</a>
             </Space>
           </a>
-        </Dropdown></li>
+        </Dropdown></li><hr/>
           <li className='navbar__item'>
           <Dropdown
           menu={{
@@ -102,7 +102,7 @@ const Navbar = () => {
             </Space>
           </a>
         </Dropdown>
-            </li>
+            </li><hr/>
           <li className='navbar__item'>
           <Dropdown
           menu={{
@@ -115,7 +115,7 @@ const Navbar = () => {
             </Space>
           </a>
         </Dropdown>
-            </li>
+            </li><hr/>
           <li className='navbar__item'>
           <Dropdown
           menu={{
@@ -129,10 +129,10 @@ const Navbar = () => {
           </a>
         </Dropdown>
             
-         </li>
+         </li> <hr/>
          <li  href="#">
          <button className='navbar__btn'>
-          <span className='navbar__frist-btn' active>RU </span> |<span className='navbar__next-btn'>EN</span></button>
+          <span className='navbar__frist-btn' active>RU</span><span>| </span><span className='navbar__next-btn'>EN</span></button>
          </li>
         </ul>
        
