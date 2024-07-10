@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-function Responsive() {
+function SliderItem() {
   var settings = {
     dots: true,
     infinite: false,
@@ -72,4 +72,4 @@ function Responsive() {
   );
 }
 
-export default Responsive;
+export default SliderItem;
