@@ -148,6 +148,9 @@
 .header__next-list{
   display: none;
 }
+.header__text{
+  width: 200px;
+}
 
 
 
