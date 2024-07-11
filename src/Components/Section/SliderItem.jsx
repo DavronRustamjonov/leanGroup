@@ -10,6 +10,27 @@ import Slider_pic4 from '/slider-pic4.svg';
 import Slider_pic5 from '/slider-pic5.svg';
 
 function SliderItem() {
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "rgba(239, 124, 0, 1)" ,borderRadius:"50%"}}
+        onClick={onClick}
+      />
+    );
+  }
+  
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "rgba(239, 124, 0, 1)" , borderRadius:"50%"}}
+        onClick={onClick}
+      />
+    );
+  }
   var settings = {
     dots: true,
     arrows: true, 
@@ -18,6 +39,8 @@ function SliderItem() {
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -25,7 +48,9 @@ function SliderItem() {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
+          dots: true,
+        
+          
         }
       },
       {
@@ -58,20 +83,20 @@ function SliderItem() {
     <div className="slider-container container">
       <h2 className="slider__title">Качество продукции подтверждают <span className="slider__span">сертификаты</span></h2>
       <Slider {...settings} >
-        <div>
-          <img  src={Slider_pic1} alt="Certificate 1" />
+        <div >
+          <img  className="slider-pic"  src={Slider_pic1} alt="Certificate 1" />
         </div>
-        <div>
-          <img  src={Slider_pic2} alt="Certificate 2" />
+        <div >
+          <img  className="slider-pic"  src={Slider_pic2} alt="Certificate 2" />
         </div>
-        <div>
-          <img  src={Slider_pic3} alt="Certificate 3" />
+        <div >
+          <img  className="slider-pic"  src={Slider_pic3} alt="Certificate 3" />
         </div>
-        <div>
-          <img  src={Slider_pic4} alt="Certificate 4" />
+        <div >
+          <img  className="slider-pic"  src={Slider_pic4} alt="Certificate 4" />
         </div>
-        <div>
-          <img  src={Slider_pic5} alt="Certificate 5" />
+        <div >
+          <img  className="slider-pic"  src={Slider_pic5} alt="Certificate 5" />
         </div>
       </Slider>
     </div>

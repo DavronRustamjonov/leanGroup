@@ -4,6 +4,8 @@ import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
 import Add from './Components/Add/Add';
 import Menu from './Components/Menu/Menu';
+import Card from './Components/Card/Card';
+import Footer from './Components/Footer/Footer';
 
 import SliderItem from './Components/Section/SliderItem';
 import Service from './Components/Service/Service';
@@ -19,6 +21,10 @@ const App = () => {
       <Service/>
       <Add/>
       <Menu/>
+      <Card/>
+      <Footer/>
+     
+
 
 
       

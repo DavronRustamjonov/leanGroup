@@ -1,0 +1,139 @@
+
+.card__container{
+    text-align: center;
+ }
+ .card__list{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   list-style: none;
+   margin: 30px auto;
+ }
+ .card__title{
+   font-family: Montserrat , sans-serif;
+   font-size: 32px;
+   font-weight: 600;
+   line-height: 40px;
+   text-align: center;
+   margin: 20px auto;
+  
+ }
+ .card__pic{
+   width: 100%;
+ }
+ .card__item{
+   padding: 5px;
+ }
+ .card__span{
+   color: rgba(239, 124, 0, 1);
+ 
+ }
+ .card__lead{
+    font-family: Montserrat , sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color:  rgba(44, 45, 46, 1);
+    margin: 5px auto;
+ }
+ .card__text{
+    font-family: Montserrat , sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: center;
+    color: (145, 147, 153, 1);
+    margin: 5px auto;
+    color: rgba(145, 147, 153, 1);
+    
+
+ }
+ 
+ @media(max-width:1200px){
+   .container{
+       width: 1100px;
+   }
+ 
+ }
+ @media(max-width:1120px){
+ .container{
+     width: 1000px;
+ }
+ 
+ }
+ @media(max-width:1020px){
+ .container{
+     width: 900px;
+ }
+ 
+ 
+ 
+ }
+ @media(max-width:920px){
+ .container{
+     width: 800px;
+ }
+ 
+ }
+ @media(max-width:820px){
+ .container{
+     width: 700px;
+ }
+ 
+ 
+ 
+ }
+ @media(max-width:720px){
+ .container{
+     width: 600px;
+ }
+ 
+ 
+ 
+ }
+ 
+ @media(max-width:620px){
+ .container{
+     width: 500px;
+ }
+ 
+ 
+ 
+ 
+ }
+ @media(max-width:520px){
+ .container{
+     width: 400px;
+ }
+ 
+ .card__list{
+   width: 100%;
+ }
+ .card__item{
+   width: 100%;
+ }
+ .card__lead{
+  font-size: 30px;
+  line-height: 35px;
+ }
+ .card__text{
+  font-size: 28px;
+  line-height: 35px;
+ }
+ 
+ 
+ }
+ @media(max-width:420px){
+ .container{
+     width: 300px;
+ }
+ 
+ 
+ 
+ 
+ }
+ 
+ @media(max-width:320px){
+ 
+ }
