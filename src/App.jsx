@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
 import Add from './Components/Add/Add';
+import Menu from './Components/Menu/Menu';
 
 import SliderItem from './Components/Section/SliderItem';
 import Service from './Components/Service/Service';
@@ -17,6 +18,7 @@ const App = () => {
       <SliderItem/> 
       <Service/>
       <Add/>
+      <Menu/>
 
 
       
